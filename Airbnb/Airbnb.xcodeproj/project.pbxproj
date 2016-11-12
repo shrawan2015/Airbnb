@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2A450E1DD6EDDF00D8155E /* SlideViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2A450D1DD6EDDE00D8155E /* SlideViewController.swift */; };
 		1B7319DB1DD0DD7500C2E29C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7319DA1DD0DD7500C2E29C /* AppDelegate.swift */; };
 		1B7319DD1DD0DD7500C2E29C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B7319DC1DD0DD7500C2E29C /* ViewController.swift */; };
 		1B7319E01DD0DD7500C2E29C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B7319DE1DD0DD7500C2E29C /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2A450D1DD6EDDE00D8155E /* SlideViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideViewController.swift; sourceTree = "<group>"; };
 		1B7319D71DD0DD7500C2E29C /* Airbnb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Airbnb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B7319DA1DD0DD7500C2E29C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1B7319DC1DD0DD7500C2E29C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 		1B7319CE1DD0DD7500C2E29C = {
 			isa = PBXGroup;
 			children = (
+				1B2A450D1DD6EDDE00D8155E /* SlideViewController.swift */,
 				1B7319D91DD0DD7500C2E29C /* Airbnb */,
 				1B7319F11DD0DD7600C2E29C /* AirbnbTests */,
 				1B7319FC1DD0DD7600C2E29C /* AirbnbUITests */,
@@ -265,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B2A450E1DD6EDDF00D8155E /* SlideViewController.swift in Sources */,
 				1B7319DD1DD0DD7500C2E29C /* ViewController.swift in Sources */,
 				1B7319DB1DD0DD7500C2E29C /* AppDelegate.swift in Sources */,
 				1B7319E31DD0DD7500C2E29C /* Airbnb.xcdatamodeld in Sources */,
