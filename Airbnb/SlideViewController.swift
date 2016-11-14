@@ -13,12 +13,18 @@ class SlideViewController: UIViewController, UICollectionViewDelegate,UICollecti
     @IBOutlet weak var collectionView: UICollectionView!
     let cellID = "SlideViewCell"
     
-    let slideData:SlideModel?
+    var slideModelData = [SlideModel]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         collectionView.delegate = self
         collectionView.dataSource = self
+        
+        var slideModel1 = SlideModel()
+        slideModel1.imageName  = "live.jpg"
+        slideModel1.textString = "living"
+        
+        slideModelData.insert(slideModel1, at: 0)
         
     }
 
@@ -27,12 +33,12 @@ class SlideViewController: UIViewController, UICollectionViewDelegate,UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return 4
+        return 1
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellID, for: indexPath) as! SlideViewCell
-        cell.slide =
+        cell.slide = slideModelData[indexPath.row]
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

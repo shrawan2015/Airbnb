@@ -25,6 +25,6 @@ class SlideViewCell: UICollectionViewCell {
 
 
 struct SlideModel {
-    var imageName:String
-    var textString:String
+    var imageName:String?
+    var textString:String?
 }
